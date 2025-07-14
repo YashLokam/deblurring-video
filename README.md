@@ -26,7 +26,7 @@ Built with Python, PyTorch, and OpenCV in Google Colab, it can process your own 
 
 ---
 
-## ⚙Requirements
+## Requirements
 - Python 3.x
 - torch
 - torchvision
@@ -36,8 +36,17 @@ Built with Python, PyTorch, and OpenCV in Google Colab, it can process your own 
 - tqdm
 - google-colab (if using Colab)
 Install all at once:
-```bash
-   pip install -r requirements.txt
-
+   ```bash
+      pip install -r requirements.txt
 ## How to Use
+Open and run video_deblurring_train.ipynb in Google Colab to train the model
 
+Use video_deblurring_validation.ipynb to see sample results
+
+Upload your own video in user_input.ipynb to get a deblurred output video
+
+Download and save the restored video
+
+## Note
+This project uses the GoPro dataset for training.
+Make sure to place the dataset in the correct folder structure as described in the notebooks.
