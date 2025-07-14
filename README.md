@@ -50,3 +50,8 @@ Download and save the restored video
 ## Note
 This project uses the GoPro dataset for training.
 Make sure to place the dataset in the correct folder structure as described in the notebooks.
+
+## output
+
+<img width="1738" height="350" alt="image" src="https://github.com/user-attachments/assets/6e7d665c-45b8-4f64-961c-e15b6758e74a" />
+
